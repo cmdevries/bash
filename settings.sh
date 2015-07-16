@@ -2,6 +2,7 @@
 
 # Allow history from multiple terminals.
 export PROMPT_COMMAND='history -a'
+shopt -s histappend
 
 # Allow unlimited history size.
 export HISTSIZE=-1
