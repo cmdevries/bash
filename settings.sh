@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Allow history from multiple terminals.
-export PROMPT_COMMAND='history -a'
+export PROMPT_COMMAND='history -a; history -n'
 shopt -s histappend
 
 # Allow unlimited history size.
