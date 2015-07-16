@@ -1,0 +1,8 @@
+Watch date time
+$ while :; do clear; uname -nsp; echo; cal; date; echo; uptime -p; sleep 2; done
+
+Battery status
+$ upower -i /org/freedesktop/UPower/devices/battery_BAT0
+
+Connect to Wifi
+$ nmcli dev wifi connect SSID password PASSWORD
