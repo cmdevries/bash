@@ -8,3 +8,6 @@ $ upower -i /org/freedesktop/UPower/devices/battery_BAT0
 
 Connect to Wifi
 $ nmcli dev wifi connect SSID password PASSWORD
+
+Adjust backlight in MacBook Pro 13 inch early 2015 with intel 6100
+# echo 0 > /sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-eDP-1/intel_backlight/brightness
